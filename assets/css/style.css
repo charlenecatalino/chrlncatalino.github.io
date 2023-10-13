@@ -272,11 +272,11 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero .container h1{
-  
-    text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
-    color:#45505b;
-  }
+#hero .container h1 {
+
+  text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0, 0, 0, 0.15);
+  color: #45505b;
+}
 
 #hero {
   width: 100%;
@@ -297,7 +297,7 @@ h6 {
 
 #hero:before {
   content: "";
- 
+
   position: absolute;
   bottom: 0;
   top: 0;
@@ -325,8 +325,8 @@ h6 {
 #hero p span {
   text-decoration: underline;
   color: greenyellow;
- text-shadow: -2px -2px 0 rgb(157, 220, 48);
- color: #FFFFFF;
+  text-shadow: -2px -2px 0 rgb(157, 220, 48);
+  color: #FFFFFF;
 
 }
 
@@ -341,7 +341,7 @@ h6 {
   line-height: 1;
   margin-right: 20px;
   transition: 0.3s;
-  
+
 }
 
 #hero .social-links a:hover {
@@ -456,9 +456,11 @@ section {
 .skill-mf span {
   color: #4e4e4e;
 }
-.skill-mf p{
+
+.skill-mf p {
   font-family: fantasy;
 }
+
 .skill-mf .progress {
   background-color: #cde1f8;
   margin: 0.5rem 0 1.2rem 0;
@@ -646,7 +648,7 @@ section {
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 350px;
+  width: 300px;
   border: 4px solid #fff;
   margin: 0 auto;
 }
@@ -725,7 +727,7 @@ section {
 
 .contact .info .facebook:hover i,
 .contact .info .linkedin:hover i,
-.contact .info .github:hover i{
+.contact .info .github:hover i {
   background: yellowgreen;
   color: #fff;
 }
